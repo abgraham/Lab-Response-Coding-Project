@@ -12,7 +12,7 @@ class color:
 
 # Reads the responses from the given file and checks to see if they contain
 # any of the target words. If a target word is found, it codes a "1" into the appropriate
-# worksheet cell.
+# worksheet cell immediately.
 def read_responses(f, targetList, sheet):
     lineCount = 0
     for line in f:
